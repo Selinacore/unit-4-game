@@ -1,0 +1,60 @@
+ /* General */
+body{
+	background: whitesmoke
+}
+div{
+	background-color: white;
+	margin: 40px;
+	width: 25%
+}
+div{
+	border: solid 5px black;
+	padding: 20px;
+}
+h1, h3, p{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+
+/* Specfics*/
+div.header, div.crystals{
+	background-color: #89cedf;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.crystals{
+  background: whitesmoke;
+  margin: 10px;
+}
+.crystalImage{
+  height: 60px;
+  width: 60px;
+  margin: 0px;
+}
+/* IDs */
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#pink{
+	color: #eb94c4;
+}
