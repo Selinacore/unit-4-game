@@ -1,4 +1,4 @@
- /* General */
+ /* general */
 body{
 	background: whitesmoke
 }
@@ -19,25 +19,19 @@ h1{
 	font-size: 30pt;
 }
 
-/* Specfics*/
-div.header, div.crystals{
+/* divs */
+div.header {
 	background-color: #89cedf;
 }
 div.header, div.instructions{
 	width: 50%;
 }
-/* Classes */
-.numberToMatch, .winsAndLosses{
-	float: left;
-	width: 15%;
-	height: 60px;
+div.crystals {
+  background-color: white;
 }
-.userTotal{
-	width: 15%;
-	height: 60px;
-}
+/* classes */
 .crystals{
-  background: whitesmoke;
+  background: white;
   margin: 10px;
 }
 .crystalImage{
@@ -45,6 +39,16 @@ div.header, div.instructions{
   width: 60px;
   margin: 0px;
 }
+.numTarget, .winsAndLosses{
+	float: left;
+	width: 25%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+
 /* IDs */
 #blue{
 	color: #3092c7;

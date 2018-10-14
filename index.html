@@ -6,7 +6,6 @@
 
 
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 </head>
 <body>
@@ -14,35 +13,34 @@
   <div class = "header">
     <h1>Crystal Collector</h1>
   </div>
-    <div class="Instructions">
+    <div class="instructions">
       <h3>How to play:</h3>
 
       
-        <p>You will be given a random number at the start of the game.</p>
-        <p>There are four crystals to choose from...</p>
+        <p>You will be given a random number target at the start of the game.</p>
+        <p>There are four crystals to click on...</p>
         <p>When you click on a crystal it will add a specific amount of points to your total score.</p>
-        <p>You win by matching your total score with the random number.</p>
-        <p>You lose by going over the random number.</p>
+        <p>You win by matching your total score with the random number target.</p>
+        <p>You lose by going over the random number target.</p>
         <p>Each crystal's value is hidden until you click on it. When the game restarts the values reset. </p>
     
 
     </div>
     <div class="userTotal">
         <h2>Your total score is:
-          <span id="finalTotal"></span>
+          <div id="finalTotal"></div>
         </h2>
       </div>
-    <div class="numToMatch">
+    <div class="numTarget">
         <h2>Number target:
-          <span id= "randomNum"></span>
+          <div id= "randomNum"></div>
         </h2>
       </div>
       <div class="winsAndLosses">
         <h2>Wins:
-          <span id= "numWins"></span>
-          <br>
-          Losses: 
-          <span id= "numLosses"></span>
+          <div id= "numWins"></div>
+           Losses: 
+          <div id= "numLosses"></div>
         </h2>
     <div class="crystals">
     
